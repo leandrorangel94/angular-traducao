@@ -1,0 +1,29 @@
+{
+    "PAGE": {
+        "TITLE": "Traduzindo meu site Angular"
+    },
+    "BUTTONS": {
+        "PRIMARY": "Primário",
+        "SECONDARY": "Secundário",
+        "SUCCESS": "Sucesso",
+        "DANGER": "Perigo",
+        "ATENTION": "Aviso",
+        "INFO": "Informação",
+        "LIGHT": "Claro",
+        "DARK": "Escuro"
+    },
+    "SLIDES": {
+        "FIRST": {
+            "TITLE": "Primeiro Slide",
+            "SUBTITLE": "Um lugar bonito, mas como eu vou chegar lá? Não tenho barco."
+        },
+        "SECOND": {
+            "TITLE": "Segundo Slide",
+            "SUBTITLE": "Isso que é trabalho em equipe."
+        },
+        "THIRD": {
+            "TITLE": "Terceiro Slide",
+            "SUBTITLE": "Aconselho não cair ai."
+        }
+    }
+}

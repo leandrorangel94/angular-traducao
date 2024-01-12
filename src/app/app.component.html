@@ -1,7 +1,14 @@
+<label><b>Escolha o Idioma do Site:</b>&nbsp;</label>
+<select  #listaIdiomas (change)="traduzirSite(listaIdiomas.value)" title="ListaIdiomas">
+  <option value="pt" selected="selected">Português do Brasil</option>
+  <option value="en">Inglês</option>  
+</select>
+
 <div class="container">
   <form>
     <legend>
-      <h1>Traduzindo meu site Angular</h1>
+      <h1>{{ 'PAGE.TITLE' | translate }}</h1>
+      <!-- <h1 translate="PAGE.TITLE"></h1> -->
     </legend>
     <div class="row">
       <div class="col-4">

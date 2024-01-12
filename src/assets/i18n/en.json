@@ -1,0 +1,29 @@
+{
+    "PAGE": {
+        "TITLE": "Translating my Angular site"
+    },
+    "BUTTONS": {
+        "PRIMARY": "Primary",
+        "SECONDARY": "Secondary",
+        "SUCCESS": "Success",
+        "DANGER": "Danger",
+        "ATENTION": "Atention",
+        "INFO": "Information",
+        "LIGHT": "Light",
+        "DARK": "Dark"
+    },
+    "SLIDES": {
+        "FIRST": {
+            "TITLE": "First Slide",
+            "SUBTITLE": "A beautiful place, but how am I going to get there? I don't have a boat."
+        },
+        "SECOND": {
+            "TITLE": "Second Slide",
+            "SUBTITLE": "That's teamwork."
+        },
+        "THIRD": {
+            "TITLE": "Third Slide",
+            "SUBTITLE": "I advise not to fall there."
+        }
+    }
+}

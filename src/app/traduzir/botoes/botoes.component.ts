@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-botoes',
@@ -7,9 +8,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BotoesComponent implements OnInit {
 
-  constructor() { }
+  constructor(private translateService: TranslateService) { }
 
   ngOnInit(): void {
+    this.translateService.setDefaultLang('pt');
   }
 
 }

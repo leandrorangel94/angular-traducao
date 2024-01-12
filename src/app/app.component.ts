@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-root',
@@ -8,12 +9,12 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'traduzindo-angular';
 
-  public TraduzirBrasil() {
-    alert('Aqui é Brasil');
+  constructor(private translateService: TranslateService) {
+    translateService.setDefaultLang('pt');
   }
 
-  public TraduzirUSA() {
-    alert('New York');
+  traduzirSite(language: string): void {
+    this.translateService.use(language);
   }
 
 
